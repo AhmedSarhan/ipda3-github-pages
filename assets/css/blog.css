@@ -1,0 +1,39 @@
+.back{
+    padding-top:20px;
+    background-image: url(imgs/portfolio.gif);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding-bottom: 20px;
+}
+.section-head:after{
+    display: none;
+}
+
+.vertical-line {
+    border-right: 5px solid #3AADE6;
+    height: 40px;
+    
+}
+.vertical-line h2{
+    float: right;
+    padding-right: 1rem;
+    font-size: 4vw;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.post img{
+    width:40%;
+    justify-items: center;
+    margin: 0 30%;
+}
+.post p{
+    padding:25px;
+    text-indent: 1em;
+    font-size: 2.5vw;
+}
+
+.section-footer{
+    
+    margin-top: -20px;
+
+}

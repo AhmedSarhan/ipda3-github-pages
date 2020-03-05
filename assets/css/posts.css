@@ -1,0 +1,27 @@
+.back{
+    background-image: url(imgs/articles.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+
+.vertical-line {
+    border-right: 5px solid #3AADE6;
+    height: 50px;
+    
+}
+.section-head:after{
+    display: none;
+}
+
+.vertical-line h2{
+    float: right;
+    padding-right: 1rem;
+    font-size: 180%;
+    font-weight: 400;
+}
+.pagination {
+    padding: 2rem;
+    font-size: larger;
+    justify-content: center;
+    /* margin: 20px -135px 20px 0; */
+}

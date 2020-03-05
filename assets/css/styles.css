@@ -1,0 +1,300 @@
+*{
+    font-family: 'Cairo', 'Arial', 'Sans-Serif';
+}
+button:focus{
+    outline: none;
+}
+.clearfix {
+    overflow: auto;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+img{
+    max-width: 100%;
+}
+.img-fluid{
+    width:100%;
+}
+
+section{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.container{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Reapetable elements */
+
+.section-head{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 300;
+}
+.section-head:after{
+    display: block;
+    height: 3px;
+    background-color: #00a8ff;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+/* ----------- navbar -------------- */
+#brand{
+    height: 50px;
+}
+.custom-toggler{
+    border:none;
+    
+}
+.custom-toggle:focus{
+    border:none;
+    outline: unset;
+
+}
+.custom-toggle:hover,.custom-toggle:link, .custom-toggle:visited {
+    border:none;
+    outline: unset;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 168, 255,1.0)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.nav-item a{
+    float:left;
+
+}
+
+
+  /* ----------- Header -------------- */
+ 
+.left-slogan{
+    background-image: url(imgs/header-side.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.left-slogan h1{
+    margin-top:100px;
+    font-weight: 300;
+    float:right;
+    font-size: 350%;
+}
+
+
+  /* ----------- Who Are We section -------------- */
+  .left-who{
+    margin-top: 100px;
+    font-size: 150%;
+}
+.section-who p{
+    font-size: 120%;
+    margin-top: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+  /* ----------- Services section -------------- */
+.services{
+    background-image:url(imgs/we-offer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+
+}
+.owl-carousel{
+    display: flex;
+    
+}
+.section-services .owl-carousel .item{
+    background-color:#fff;
+    width:100%;
+    height: 100%;
+    border-radius:5%;
+    text-align:center;
+}
+.section-services .owl-carousel .item h4{
+    color: #00a8ff;
+}
+.section-services .owl-carousel .item img{
+   padding:15px 0;
+    width:50%;
+    margin: 0 auto;
+}
+.section-services .owl-carousel .item p{
+    padding: 15px 10px;
+}
+.owl-nav button span{
+    font-size: 200%;
+}
+.owl-nav button:after,.owl-nav button:link, .owl-nav button:active, .owl-nav button:hover {
+    background: none;
+    color:none;
+
+}
+  /* ----------- portfolio section -------------- */
+
+.portfolio{
+    background-image: url(imgs/portfolio.gif);
+
+}
+.portfolio-grid{
+    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+}
+.box{
+    
+    height: auto;
+    width:auto;
+    padding: 0;
+    background-color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 5%;
+    margin:20px 15px;
+    margin-left:45px;
+    -webkit-box-shadow: 4px 7px 4px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 4px 7px 4px 1px rgba(0,0,0,0.54);
+    box-shadow: 4px 7px 4px 1px rgba(0,0,0,0.54);
+    
+}
+.box img{
+    border-radius: 5%;
+
+}
+.portfolio h2{
+    font-size: 130%;
+    padding-top:10px;
+}
+.shahid{
+    border-radius: 15px;
+    background-color: #130f40;
+    text-align: center;
+    width:100%;
+    margin-bottom:40px;
+}
+.box a{
+    color:inherit;
+    
+}
+
+
+
+.box a:hover,
+.box a:active,
+.box a:visited,
+.box a:link  {
+    color:inherit;
+    text-decoration: none;
+}
+  /* ----------- Posts section -------------- */
+
+.post{
+    background-color: #fff;
+    margin:30px;
+    border-radius: 5%;
+    padding:20px 8px;
+    -webkit-box-shadow: 4px 7px 4px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 4px 7px 4px 1px rgba(0,0,0,0.54);
+    box-shadow: 4px 7px 4px 1px rgba(0,0,0,0.54);
+}
+.post p{
+    text-align: center;
+    font-size: 160%;
+}
+.posts button{
+    border-radius: 15px;
+    background-color: #130f40;
+    
+
+}
+.post img{
+    border-radius: 9px;
+}
+.views{
+    float: left;
+    padding:5px;
+    margin-top:5px;
+}
+.posts a:last-of-type{
+    margin: 0 auto;
+}
+.posts button:last-of-type{
+        width:180px;
+
+}
+  /* ----------- Clients Section -------------- */
+  .section-clients {
+    background-image:url(imgs/our-client-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding-top: 90px;
+    padding-bottom:90px;
+    margin-bottom: 0;
+}
+.section-clients .owl-carousel .owl-item img{
+    margin: 0 auto;
+    width: 50%;
+}
+  /* ----------- footer Section -------------- */
+.section-footer{
+    margin-top:0;
+    background-image: url(imgs/footer.jpg);
+    background-size:100% 100% ;
+    background-repeat: no-repeat;
+}
+.vector{
+    width: 50%;
+    padding-top: 54px;
+    padding-bottom: 50px;
+    margin-right: 55px;
+}
+.footer-left{
+    float:left;
+    
+}
+.footer-logo{
+    width:25%;
+    margin-top: 100px;
+    margin-right: 200px;
+
+
+}
+
+.footer-left h3{
+    color:white;
+    font-size: 80%;
+    font-weight: 300;
+    margin-right: 200px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.footer-left-elements{
+    color:white;
+    font-size: 140%;
+    font-weight: 300;
+    margin-right: 200px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.footer-left-elements i{
+    margin-left:20px;
+    color:white;
+
+}
+

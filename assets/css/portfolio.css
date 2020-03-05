@@ -1,0 +1,32 @@
+ .section-footer{
+    
+    margin-top: -50px;
+
+}
+.section-head:after{
+    display: none;
+}
+.portfolio{
+    padding-top:20px;
+
+}
+
+.vertical-line {
+    border-right: 5px solid #3AADE6;
+    height: 50px;
+    
+}
+
+.vertical-line h2{
+    float: right;
+    padding-right: 1rem;
+    font-size: 180%;
+    font-weight: 400;
+}
+.pagination {
+    padding: 2rem;
+    font-size: larger;
+    justify-content: center;
+    margin: 0 auto;
+    /* margin: 20px -135px 20px 0; */
+}
