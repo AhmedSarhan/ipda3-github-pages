@@ -18,7 +18,7 @@
   <body>
     
     <!-- navbar -->
-    <nav class="navbar navbar-collapse-lg navbar-light bg-light">
+    <nav class="navbar navbar-collapse-lg navbar-light fixed-top bg-light">
         <a class="navbar-brand" href="index.html"><img src="assets/imgs/logo2.png" id="brand" alt="إبداع تك" ></a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"> 
@@ -31,10 +31,10 @@
               <a class="nav-link" href="#"> الرئيسية<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">من نحن</a>
+              <a class="nav-link" href="#about">من نحن</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">اتصل بنا</a>
+                <a class="nav-link" href="#footer">اتصل بنا</a>
               </li>
           </ul>
         </div>
@@ -55,7 +55,7 @@
               </div>
          </div>
       </section>  
-      <section class="section-who">
+      <section class="section-who" id="about">
           <div class="container">
               <h2 class="section-head">من نحن؟</h2>
           </div>
@@ -73,6 +73,7 @@
           </div>
           
       </section>
+      <!-- Services Section  -->
       <section class="section-services">
         <div class="container">
             <h2 class="section-head">ما نقدمه لكم</h2>
@@ -151,7 +152,7 @@
                         <h2>تطبيق سوشي</h2>
                         
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 box">
+                    <div class="col-lg-3 col-md-6 col-sm-12 box one-app">
                         <img src="assets/imgs/one-preview.jpg" class="image-fluid" alt="bankblood">
                         <a href="assets/pages/app.html"><h2>تطبيق وان</h2></a>
                     </div>
@@ -172,36 +173,42 @@
                             <div class="post">
                                 <img src="assets/imgs/web.jpg" alt="microsoft" class="img-fluid">
                                 <p>توقف دعم تطبيقات شركة microsoft جهاز microsoft band لتتبع اللياقة البدنية </p>
-                                <button class="btn btn-primary">أقرأ الأن </button>
+                                <a href="assets/pages/blog.html"><button class="btn btn-primary">أقرأ الأن </button></a>
                                 <span class="views">200 <i class="fas fa-eye"></i></span>
                               </div>
                           </div>
                       </div>
                   </div>
                   <div class="col-md-6 col-sm-12">
-                    <div class="post">
-                        <img src="assets/imgs/MICROsoft.jpg" alt="microsoft">
-                        <p>توقف دعم تطبيقات شركة microsoft جهاز microsoft band لتتبع اللياقة البدنية </p>
-                        <a href="assets/pages/blog.html"><button class="btn btn-primary">أقرأ الأن </button></a>
-                        <span class="views">200 <i class="fas fa-eye"></i></span>
+                    <div class="col-md-10 offset-md-1">
+                        <div class="post">
+                            <img src="assets/imgs/MICROsoft.jpg" alt="microsoft">
+                            <p>توقف دعم تطبيقات شركة microsoft جهاز microsoft band لتتبع اللياقة البدنية </p>
+                            <a href="assets/pages/blog.html"><button class="btn btn-primary">أقرأ الأن </button></a>
+                            <span class="views">200 <i class="fas fa-eye"></i></span>
+                        </div>
+                        </div>
                     </div>
-                </div>
               </div>
               <div class="row">
                   <div class="col-md-6 col-sm-12">
-                      <div class="post">
-                      <img src="assets/imgs/web.jpg" alt="microsoft" class="img-fluid">
-                      <p>توقف دعم تطبيقات شركة microsoft جهاز microsoft band لتتبع اللياقة البدنية </p>
-                      <button class="btn btn-primary">أقرأ الأن </button>
-                      <span class="views">200 <i class="fas fa-eye"></i></span>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="post">
-                        <img src="assets/imgs/MICROsoft.jpg" alt="microsoft">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="post">
+                        <img src="assets/imgs/web.jpg" alt="microsoft" class="img-fluid">
                         <p>توقف دعم تطبيقات شركة microsoft جهاز microsoft band لتتبع اللياقة البدنية </p>
-                        <button class="btn btn-primary">أقرأ الأن </button>
+                        <a href="assets/pages/blog.html"><button class="btn btn-primary">أقرأ الأن </button></a>
                         <span class="views">200 <i class="fas fa-eye"></i></span>
+                        </div>
+                    </div>    
+                </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="post">
+                            <img src="assets/imgs/MICROsoft.jpg" alt="microsoft">
+                            <p>توقف دعم تطبيقات شركة microsoft جهاز microsoft band لتتبع اللياقة البدنية </p>
+                            <a href="assets/pages/blog.html"><button class="btn btn-primary">أقرأ الأن </button></a>
+                            <span class="views">200 <i class="fas fa-eye"></i></span>
+                        </div>
                     </div>
                 </div>
                 <a href="assets/pages/posts.html"><button class="btn btn-primary">المزيد</button></a>
@@ -244,7 +251,7 @@
             </div>
           </div>
       </section>
-      <section class="section-footer">
+      <section class="section-footer" id="footer">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">

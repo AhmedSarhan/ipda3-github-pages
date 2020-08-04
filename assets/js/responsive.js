@@ -36,3 +36,10 @@ $('.section-clients .owl-carousel').owlCarousel({
         }
     }
 })
+
+// the app in portfolio section link
+
+$(".one-app").click(function() {
+    window.location = $(this).find("a").attr("href"); 
+    return false;
+  });
